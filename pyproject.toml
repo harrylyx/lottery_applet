@@ -1,0 +1,25 @@
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "harrylyx", email = "harrylyx@qq.com"},
+]
+dependencies = [
+    "fastapi==0.74.1",
+    "uvicorn==0.17.5",
+    "requests>=2.27.1",
+    "beautifulsoup4>=4.10.0",
+    "lxml>=4.8.0",
+    "python-multipart==0.0.5",
+]
+requires-python = ">=3.8"
+license = {text = "MIT"}
+
+[project.urls]
+Homepage = ""
+[tool.pdm]
+
+[build-system]
+requires = ["pdm-pep517"]
+build-backend = "pdm.pep517.api"
